@@ -1,7 +1,9 @@
-# 🧠 ResearchMind
-### Autonomous Multi-Agent Research System
+# 🧠 ResearchMind - Multi-Agent Research System
 
 > AI-powered system that automates the full research workflow using multi-agent orchestration.
+## 🔗 Project Links
+- 🌐 Live Demo: [https://research-mind-ai.streamlit.app/]
+  <img width="1664" height="1019" alt="ResearchMind" src="https://github.com/user-attachments/assets/779fb44e-abd3-416d-9275-cd67aa9d833c" />
 
 ---
 
@@ -30,21 +32,7 @@ It uses **LangChain (LCEL)** and **Mistral** to coordinate multiple agents that 
 
 ## 🏗️ Architecture
 
-User Query
-   ↓
-Search Agent ──→ Fetch relevant sources
-   ↓
-Scraper Agent ──→ Extract structured data
-   ↓
-Analysis Agent ──→ Generate insights
-   ↓
-Evaluation Agent ──→ Validate results
-   ↓
-Final Report Output
-
-The pipeline is fully modular—agents can be extended, replaced, or parallelized.
+<img width="531" height="292" alt="Screenshot 2026-05-02 133448" src="https://github.com/user-attachments/assets/e866729c-9467-4058-962c-7a14ef238b59" />
+> The pipeline is fully modular—agents can be extended, replaced, or parallelized.
 
 ---
-
-## 🔗 Project Links
-- 🌐 Live Demo: [https://research-mind-ai.streamlit.app/]  
