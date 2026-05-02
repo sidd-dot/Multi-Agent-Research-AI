@@ -1,51 +1,34 @@
-ResearchMind - Autonomous Multi-Agent Research System
+# 🧠 ResearchMind
+### Autonomous Multi-Agent Research System
 
-ResearchMind is an AI-powered multi-agent system that automates the complete research lifecycle—from real-time data collection to structured report generation and evaluation.
-Designed for scalability and modularity, it leverages LangChain (LCEL) and Mistral to orchestrate specialized agents that collaborate in a seamless pipeline.
+> AI-powered system that automates the full research workflow using multi-agent orchestration.
 
+---
 
-✨ Why ResearchMind?
-Traditional research workflows are:
-- Manual
-- Time-consuming
-- Hard to scale
+## ✨ Overview
 
-ResearchMind solves this by introducing autonomous agents that:
-- Discover relevant information
-- Extract and structure data
-- Generate insights
-- Validate outputs
+ResearchMind is a multi-agent AI system designed to streamline research—from data collection to evaluation.
 
-All in a single, intelligent pipeline.
+It uses **LangChain (LCEL)** and **Mistral** to coordinate multiple agents that perform:
+- Web search
+- Data extraction
+- Insight generation
+- Output validation
 
+---
 
-⚡ Key Capabilities
-🤖 Multi-Agent Intelligence
+## ⚡ Features
 
-Each stage of the research process is handled by a dedicated agent, enabling parallelism and specialization.
+- 🤖 Multi-agent orchestration  
+- 🌐 Real-time web search (Tavily API)  
+- 🧩 Modular pipeline using LCEL  
+- 📝 Automated report generation  
+- ✅ Output evaluation  
+- 📊 Interactive UI with Streamlit  
 
-🌐 Real-Time Knowledge Retrieval
+---
 
-Integrated with Tavily API and custom scraping tools for up-to-date, high-quality data.
-
-🧩 Modular Architecture (LCEL)
-
-Built using LangChain Expression Language for composability, performance, and easy extensibility.
-
-📝 Automated Insight Generation
-
-Transforms raw data into structured, readable research reports.
-
-✅ Built-in Evaluation Layer
-
-Ensures reliability and relevance of generated outputs.
-
-📊 Interactive Interface
-
-Streamlit-powered UI with dynamic rendering and efficient session state management.
-
-🏗️ System Architecture
-
+## 🏗️ Architecture
 User Query
    ↓
 Search Agent ──→ Fetch relevant sources
@@ -57,3 +40,10 @@ Analysis Agent ──→ Generate insights
 Evaluation Agent ──→ Validate results
    ↓
 Final Report Output
+
+The pipeline is fully modular—agents can be extended, replaced, or parallelized.
+
+---
+
+## 🔗 Project Links
+- 🌐 Live Demo: https://[https://research-mind-ai.streamlit.app/]  
