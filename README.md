@@ -1,4 +1,5 @@
-# 🧠 ResearchMind - Multi-Agent Research System
+# 🧠 ResearchMind
+### Autonomous Multi-Agent Research System
 
 > AI-powered system that automates the full research workflow using multi-agent orchestration.
 
@@ -73,7 +74,7 @@ git clone <your-repo-link>
 cd researchmind
 ```
 
-2. Create virtual environmentand activate it (recommended)
+2. Create virtual environment and activate it (recommended)
  
 3. Install Dependencies
 ```bash
@@ -87,7 +88,7 @@ streamlit run app.py
 
 ---
 
-# 📌 Use Cases
+## 📌 Use Cases
 
 - 📚 **Automated Literature Review**  
   Quickly gather and summarize research papers or articles.
