@@ -7,7 +7,7 @@
 
 ## ✨ Overview
 
-ResearchMind is a multi-agent AI system designed to streamline research—from data collection to evaluation.
+> ResearchMind is a multi-agent AI system designed to streamline research—from data collection to evaluation.
 
 It uses **LangChain (LCEL)** and **Mistral** to coordinate multiple agents that perform:
 - Web search
@@ -29,6 +29,7 @@ It uses **LangChain (LCEL)** and **Mistral** to coordinate multiple agents that 
 ---
 
 ## 🏗️ Architecture
+
 User Query
    ↓
 Search Agent ──→ Fetch relevant sources
@@ -46,4 +47,4 @@ The pipeline is fully modular—agents can be extended, replaced, or parallelize
 ---
 
 ## 🔗 Project Links
-- 🌐 Live Demo: https://[https://research-mind-ai.streamlit.app/]  
+- 🌐 Live Demo: [https://research-mind-ai.streamlit.app/]  
